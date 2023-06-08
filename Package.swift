@@ -14,8 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "UIBlocks",
-            sources: ["Sources"],
+            path: "Sources",
             publicHeadersPath: "")
-    ],
-    version: "1.0"
+    ]
 )
